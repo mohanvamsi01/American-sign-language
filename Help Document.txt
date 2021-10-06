@@ -1,0 +1,22 @@
+Help Document
+0. Link to the dataset -> https://github.com/shadabsk/Sign-Language-Recognition-Using-Hand-Gestures-Keras-PyQT5-OpenCV/tree/master/Source%20Code/Dataset
+1. Download the zip folder
+2. Unzip the folder
+3.Implemention of model is done in Final(2).ipynb(Use google colab to run the code if necessary)
+4.The other ipynb files i.e Final_softmax,Final_tanh,SigmoidFinal,SwishFinal are the same code of our model implementation
+  with other activation function.(Open with colab if necessary)
+5.Finalmodel(1).h5 is the file which is the trained model from Final(2).ipynb and this is the model which will be used 
+  for prediction in "Test sign language Final.ipynb")
+6. Open Test sign language Final.ipynb code in jupyter notebook
+7.Change the path of the to load Finalmodel(1).h5 (2nd cell) as per its path in your pc in Test sign language Final.ipynb
+8. Make sure libraries like opencv, tensorflow are installed if not then install them using the pip command.
+9. Execute each and every cell.
+10.NumberFinal(1).ipynb is the number detection using sign language number(You can run it in jupyter notebook)
+11.Link to dataset ->https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers
+12.Change the dataset path in NumberFinal(1) as per path of the above dataset in your pc.
+13.Run all if necessary(Numbers.h5 is the trained model so instead of running all,run first four cell,
+   then in the last 4th cell change the path of the Numbers.h5 as per your path in pc,then run all last 4 cells)
+
+
+
+14.
